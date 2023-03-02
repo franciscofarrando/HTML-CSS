@@ -1,0 +1,249 @@
+.nav-box > div {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 40px;
+    margin: 10px;
+    flex: .5;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium';
+    text-align: center;
+  
+    
+}
+.nav-box > div > Buttom{
+    text-decoration: none;
+    color: gray;
+    }
+    
+.Buttom {
+    height: 20px;
+    cursor: pointer;
+    color: gray;
+    
+}
+.image-icon{
+    height: 75px;
+   
+}
+  div:nth-child(1){
+    padding: 10px;  
+  }
+  div:nth-child(2) {
+      flex: 2;
+  }
+  
+        
+  .nav-box{
+      background-color: rgba(0, 0, 0, 0);
+      margin: 10px ;
+      padding: 10px;
+      display: flex;
+      justify-content: space-evenly;
+     
+  
+  }
+  .nav-box2{
+      background-color: rgba(22, 22, 22, 0.25);
+      margin: 150px 100px 0px 100px;
+      padding: 20px 10px 60px 10px;
+      text-align: center ;
+      color: rgba(220, 78, 27, 0.57);
+      font-family: sans-serif;
+
+    
+      
+
+      
+  }
+  .header-box{
+        background-image: url(images/header.jpg);
+        /*background-size: cover;*/ 
+        background-position: center center;
+        background-color: black;
+        margin: 10px 10px 0px 10px;
+        padding: 10px 10px 0px 10px;
+        
+  }
+
+/* desde aca comienza la caja del medio */
+
+.section-box > .main-box{
+    background-color:#D8D7D7;
+    margin: 10px ;
+    padding:10px;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr;
+    flex: 2;
+  }
+  .main-box> div {
+    background-color: #F5F1F1;
+    margin: 10px;
+    padding: 7px;
+    height:fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 40px 40% 5%;
+    
+
+    
+  }
+  /*Caja del articulo*/ 
+  .image-article{
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+  }
+
+  .bl-text{
+    text-align:center;
+    position:absolute;
+    bottom: -10px;
+    left: 50px;
+    color: white;
+  
+  }
+    
+  .cultura-box{
+    background-color: #F08080;
+    text-align: left;
+    padding: 10px 3px 0px 3px;
+    color: #FAF3EB;
+    font-size: 20px;
+    font-family: arial;
+    margin: 0px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 5px;
+    margin-bottom: 3px;
+
+   
+}
+
+.paragraph-box1{
+  text-align: left; 
+  grid-column-start: 1;
+  grid-column-end: 2; 
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: 2px;
+  
+}
+.paragraph-box2{
+    text-align: left; 
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    grid-row-start: 3;
+    grid-row-end: 4; 
+    margin: 2px;
+    
+    
+
+}
+.buttom-bottom{
+    color: gray;
+    text-align: bottom;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+  div:nth-child(5){
+    background-color: #6399bb00;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    height: 75px
+    
+    
+      
+  }
+ 
+  .section-box > .aside-box{
+    background-color:#D8D7D7;
+    margin: 10px ;
+    padding:10px;
+    flex: .5;
+  }
+  .aside-box> div {
+    background-color: #ffe38000;
+    text-align: center;
+    margin: 10px;
+    
+   
+  }
+  .aside-text{
+    font-family: Times;
+    font-size: 30px;
+    font-weight: bold;
+   
+
+    }
+  .section-box {
+    background-color: white;
+    margin: 0px ;
+    padding:0px;
+    display: flex;
+  }
+  /* aca comienza el footer*/
+  
+  .footer-box > div {
+    background-color: #eeeeee;
+     text-align: center;
+     margin: 0px 10px;
+     height: 20px;
+  }
+  .footer-box{
+    background-color: #D8D7D7;
+    margin: 10px ;
+    padding: 0px 10px;
+  
+  }
+ 
+  
+  /*
+  @media (max-width: 600px){
+    .section-box {
+      flex-direction: column;
+    }
+      
+    .section-box > .main-box{
+      flex: 1;
+    }
+  }
+  @media (max-width: 390px){
+      .nav-box{
+      display: grid;
+      grid-gap: 5px;
+      grid-template-columns: 1fr;
+      
+      
+    }
+    .section-box > .main-box{
+    
+      display: grid;
+      grid-gap: 5px;
+      grid-template-columns: 1fr;
+      flex: 1;
+    }
+    
+    div:nth-child(5){
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+   
+  }
+ 
+      
+     
+
+  

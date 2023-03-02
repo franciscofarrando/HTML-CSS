@@ -1,0 +1,112 @@
+.nav-box > div {
+  background-color: #EA584B;
+   text-align: center;
+   margin: 10px;
+   flex:1;
+   height: 20px;
+   
+  }
+    
+div:nth-child(2) {
+    flex: 2
+}
+.nav-box{
+    background-color: #27394E;
+    margin: 10px ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.nav-box2{
+    background-color: #F0763A;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.header-box{
+    background-color: black;
+    margin: 10px ;
+    padding: 10px;
+   
+}
+/* desde aca comienza la caja del medio */
+
+.section-box > .main-box{
+  background-color:#44465E;
+  margin: 10px ;
+  padding:10px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr;
+  flex: 2;
+}
+.main-box> div {
+  background-color: #1664A4;
+  text-align: center;
+  margin: 10px;
+  height: 20px;
+
+}
+div:nth-child(5){
+  background-color: #6399BB;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.section-box > .aside-box{
+  background-color:#F94C47;
+  margin: 10px ;
+  padding:10px;
+  flex: 1;
+}
+.aside-box> div {
+  background-color: #FFE380;
+  text-align: center;
+  margin: 10px;
+  height: 20px;
+ 
+}
+.section-box {
+  background-color: black;
+  margin: 10px ;
+  padding:10px;
+  display: flex;
+}
+/* aca comienza el footer*/
+
+.footer-box > div {
+  background-color: #E4A434;
+   text-align: center;
+   margin: 10px;
+   height: 20px;
+}
+.footer-box{
+  background-color: black;
+  margin: 10px ;
+  padding:10px;
+
+}
+/* desde aca comienza uso de tableta*/
+@media (max-width: 600px){
+  .section-box {
+    background-color: yellow;
+    flex-direction: column;
+  }
+    
+  .section-box > .main-box{
+    flex: 1;
+  }
+}
+/* desde aca comienza uso de movil*/
+
+@media (max-width: 390px){
+  .nav-box > div {
+    flex:1;
+    background-color: azure;
+  }
+  .nav-box{
+    flex-direction: column;
+  }
+}
